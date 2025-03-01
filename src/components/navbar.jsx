@@ -10,7 +10,7 @@ function Navbar() {
 
                     <Link to="/" className="logo d-flex align-items-center">
 
-                        <img src="assets/img/logo.png" alt="" />
+                        <img src="/img/logo.png" alt="" />
                         <h1 className="sitename">Personal</h1>
                     </Link>
 

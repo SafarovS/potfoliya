@@ -7,7 +7,7 @@ import Resume from './pages/resume.jsx';
 import Serveces from './pages/Serveces.jsx';
 import Portfoliya from './pages/Portfoliya.jsx';
 import Contact from './pages/Contact.jsx';
-
+import Footer from './components/Footer.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +25,7 @@ function App() {
           <Route path="/portfolio" element={<Portfoliya />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
     </>
