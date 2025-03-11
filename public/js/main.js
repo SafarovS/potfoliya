@@ -86,13 +86,19 @@ window.addEventListener("scroll", toggleScrolled);
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
     }
   }
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
+  document.addEventListener("DOMContentLoaded", () => {
+    const scrollTop = document.getElementById("scrollTop");
+    if (scrollTop) {
+        scrollTop.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        });
+    }
+});
+
 
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);

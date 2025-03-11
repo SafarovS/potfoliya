@@ -1,20 +1,42 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import '../assets/css/main.css'
 
 function Siklls() {
+    const skillsRef = useRef(null);
+    const [visible, setVisible] = useState(false);
     useEffect(() => {
-        document.querySelectorAll(".progress-bar").forEach((bar) => {
-            bar.style.width = "0%"; // Dastlab width ni 0% qilamiz
-
-            setTimeout(() => {
-                const width = bar.getAttribute("aria-valuenow") + "%";
-                bar.style.width = width;
-            }, 300); // 300ms keyin animatsiyani boshlaymiz
-        });
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const entry = entries[0];
+                if (entry.isIntersecting) {
+                    setVisible(true); // Sektsiya ekranga chiqsa animatsiya boshlansin
+                }
+            },
+            { threshold: 0.5 } // 50% ekranga chiqsa ishga tushadi
+        );
+        if (skillsRef.current) {
+            observer.observe(skillsRef.current);
+        }
+        return () => {
+            if (skillsRef.current) {
+                observer.unobserve(skillsRef.current);
+            }
+        };
     }, []);
+    useEffect(() => {
+        if (visible) {
+            document.querySelectorAll(".progress-bar").forEach((bar) => {
+                bar.style.width = "0%"; // Dastlab 0% bo‘lsin
+                setTimeout(() => {
+                    const width = bar.getAttribute("aria-valuenow") + "%";
+                    bar.style.width = width;
+                }, 300); // 300ms keyin animatsiya boshlansin
+            });
+        }
+    }, [visible]);
     return (
         <>
-            <section id="skills" className="skills section">
+            <section ref={skillsRef} id="skills" className="skills section">
                 <div className="container section-title" data-aos="fade-up">
                     <h2>Skills</h2>
                     <div><span>My</span> <span className="description-title">Skills</span></div>

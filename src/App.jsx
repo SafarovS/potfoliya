@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState , useEffect } from 'react'
+import AOS from 'aos';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar.jsx';
 import Home from './pages/Home.jsx'
@@ -11,7 +12,10 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
-
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+    AOS.refresh(); 
+}, []);
   return (
     <>
       <Router>

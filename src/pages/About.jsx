@@ -1,8 +1,11 @@
-import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Stats from "../components/aboutstats.jsx";
 import Siklls from "../components/siklls.jsx";
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Sahifani tepaga scroll qilish (ixtiyoriy)
+  }, []);
   return (
     <>
       <div className="page-title" data-aos="fade">
