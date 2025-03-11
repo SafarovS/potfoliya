@@ -863,10 +863,10 @@ section,
 }
 
 .skills .progress-bar {
-  width: 1px;
+  width: 0;
   height: 10px;
-  transition: 0.9s;
   background-color: var(--accent-color);
+  transition: width 1.5s ease-in-out;
 }
 
 /*--------------------------------------------------------------
