@@ -28,20 +28,20 @@ function Footer() {
 
                     {/* Social links */}
                     <div className="social-links d-flex justify-content-center">
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-twitter-x"></i>
+                        <a href="https://github.com/SafarovS" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-github"></i>
                         </a>
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=100081559261261" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-facebook"></i>
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/suhr0b_safarov/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-instagram"></i>
                         </a>
-                        <a href="https://skype.com" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-skype"></i>
+                        <a href="https://t.me/Safarov_suhrob_pravetroom" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-telegram"></i>
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-linkedin"></i>
+                        <a href="https://sukhrob2024@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-envelope-at-fill"></i>
                         </a>
                     </div>
 
