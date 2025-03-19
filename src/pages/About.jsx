@@ -32,10 +32,14 @@ function About() {
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
             <div className="col-lg-4">
-              <img src="/img/profile-img.jpg" className="img-fluid" alt="" />
+              <div className="hexagon-border">
+                <div className="hexagon">
+                  <img src="/img/profile-img.png" className="img-fluid" alt="" />
+                </div>
+              </div>
             </div>
             <div className="col-lg-8 content">
-              <h2>UI/UX Designer &amp; Web Developer.</h2>
+              <h2>Full Stack Web Deweloper</h2>
               <p className="fst-italic py-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua.
@@ -43,17 +47,16 @@ function About() {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>30 May 1999</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+998 97 290 78 99</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Karshi Uzbekistan</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukhrob2024@gmail.com&su=Taklif" target="_blank"> <span>sukhrob2024@gmail.com</span></a></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                   </ul>
                 </div>

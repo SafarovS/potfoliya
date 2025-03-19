@@ -33,7 +33,7 @@ function Home() {
     return (
         <main className="main">
             <section id="hero" className="hero section dark-background">
-                <img src="/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+                <img src="/img/hero-bg1.jpg" alt="" data-aos="fade-in" />
                 <div className="container" data-aos="zoom-out" data-aos-delay="100">
                     <h2>Suhrob Safarov</h2>
                     <p>
@@ -44,10 +44,18 @@ function Home() {
                         <i className="bi bi-download"></i> Download Resume
                     </a>
                     <div className="social-links">
-                        <Link to="#"><i className="bi bi-twitter-x"></i></Link>
-                        <Link to="#"><i className="bi bi-facebook"></i></Link>
-                        <Link to="#"><i className="bi bi-instagram"></i></Link>
-                        <Link to="#"><i className="bi bi-linkedin"></i></Link>
+                        <a href="https://www.facebook.com/profile.php?id=100081559261261" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://github.com/SafarovS" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-github"></i>
+                        </a>
+                        <a href="https://t.me/Safarov_suhrob_pravetroom" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukhrob2024@gmail.com&su=Taklif" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-envelope-at-fill"></i>
+                        </a>
                     </div>
                 </div>
             </section>
