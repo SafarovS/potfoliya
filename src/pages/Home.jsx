@@ -53,6 +53,9 @@ function Home() {
                         <a href="https://t.me/Safarov_suhrob_pravetroom" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-telegram"></i>
                         </a>
+                        <a href="https://wa.me/998972907899" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-whatsapp"></i>
+                        </a>
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukhrob2024@gmail.com&su=Taklif" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-envelope-at-fill"></i>
                         </a>

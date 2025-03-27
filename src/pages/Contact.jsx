@@ -27,31 +27,37 @@ function Contact() {
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
             <div className="col-md-6">
-              <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-                <i className="icon bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+              <a href="https://maps.app.goo.gl/TUHjmo284nBi9dC48" target="_blank">
+                <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <i className="icon bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>Uzbekistan Karshi </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-md-6">
-              <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
-                <i className="icon bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Me</h3>
-                  <p>+1 5589 55488 55</p>
+              <a href="tel:+998972907899">
+                <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i className="icon bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Me</h3>
+                    <p>+998 97 290 78 99</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-md-6">
-              <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
-                <i className="icon bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukhrob2024@gmail.com&su=Taklif" target="_blank" rel="noopener noreferrer">
+                <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i className="icon bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>sukhrob2024@gmail.com</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-md-6">
               <div className="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
@@ -59,11 +65,11 @@ function Contact() {
                 <div>
                   <h3>Social Profiles</h3>
                   <div className="social-links">
-                    <a href="#"><i className="bi bi-twitter-x"></i></a>
-                    <a href="#"><i className="bi bi-facebook"></i></a>
-                    <a href="#"><i className="bi bi-instagram"></i></a>
-                    <a href="#"><i className="bi bi-skype"></i></a>
-                    <a href="#"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://x.com/sukhrob_sa64833" target="_blank"><i className="bi bi-twitter-x"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100081559261261" target="_blank"><i className="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/suhr0b_safarov/" target="_blank"><i className="bi bi-instagram"></i></a>
+                    <a href="https://t.me/Safarov_suhrob_pravetroom" target="_blank"><i className="bi bi-telegram"></i></a>
+                    <a href="https://wa.me/998972907899" target="_blank"><i className="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>

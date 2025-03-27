@@ -24,7 +24,7 @@ function Footer() {
             <footer id="footer" className="footer dark-background">
                 <div className="container">
                     <h3 className="sitename">Personal</h3>
-                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                    <p>Bizning ijtimoiy tarmoqlar</p>
 
                     {/* Social links */}
                     <div className="social-links d-flex justify-content-center">
@@ -40,6 +40,12 @@ function Footer() {
                         <a href="https://t.me/Safarov_suhrob_pravetroom" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-telegram"></i>
                         </a>
+                        <a href="https://wa.me/998972907899" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="https://x.com/sukhrob_sa64833" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-twitter-x"></i>
+                        </a>
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukhrob2024@gmail.com&su=Taklif" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-envelope-at-fill"></i>
                         </a>
@@ -48,10 +54,10 @@ function Footer() {
                     {/* Copyright */}
                     <div className="container">
                         <div className="copyright">
-                            <span>Copyright</span> <strong className="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+                            <span>Copyright &copy;{new Date().getFullYear()}</span> <strong className="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
                         </div>
                         <div className="credits">
-                            <a href="https://bootstrapmade.com/" target="_blank" rel="noopener noreferrer">BootstrapMade</a>
+                            <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">ReactMade</a>
                         </div>
                     </div>
                 </div>
