@@ -11,7 +11,7 @@ function Navbar() {
                     <Link to="/" className="logo d-flex align-items-center">
 
                         <img src="/img/logo.png" alt="" />
-                        <h1 className="sitename">Personal</h1>
+                        <h1 className="sitename">Sukhrob</h1>
                     </Link>
 
                     <nav id="navmenu" className="navmenu">
