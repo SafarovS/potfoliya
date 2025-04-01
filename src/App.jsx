@@ -10,6 +10,7 @@ import Portfoliya from './pages/Portfoliya.jsx';
 import Contact from './pages/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import Servecesdet from './components/serveces-detal.jsx';
+import NotFound from './pages/404.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,7 @@ function App() {
           <Route path="/servecesdt" element={<Servecesdet />} />
           <Route path="/portfolio" element={<Portfoliya />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
